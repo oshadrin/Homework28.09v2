@@ -39,11 +39,13 @@ public class Mammals extends Animals {
 
     @Override
     public void move() {
-        super.move();
+
+        System.out.println("Млекопитающее идет");
     }
 
     @Override
     public void eat() {
-        super.eat();
+
+        System.out.println("Млекопитающее ест");
     }
 }

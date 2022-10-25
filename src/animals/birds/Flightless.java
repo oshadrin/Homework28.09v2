@@ -10,15 +10,6 @@ public class Flightless extends Birds {
         super(name, age, habitat, moveType);
     }
 
-    @Override
-    public void eat() {
-        super.eat();
-    }
-
-    @Override
-    public void move() {
-        super.move();
-    }
 
     @Override
     public String toString() {

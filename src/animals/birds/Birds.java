@@ -21,11 +21,12 @@ public class Birds extends Animals {
 
     @Override
     public void eat() {
-        super.eat();
+
+        System.out.println("Птица ест");
     }
 
     @Override
     public void move() {
-        super.move();
+        System.out.println("Птица идет");
     }
 }

@@ -11,15 +11,6 @@ public class Flying extends Birds{
     }
 
     @Override
-    public void eat() {
-        super.eat();
-    }
-
-    @Override
-    public void move() {
-        super.move();
-    }
-    @Override
     public String toString() {
         return getName() + " " + getAge() + " " + getHabitat() + " " + getMoveType();
     }

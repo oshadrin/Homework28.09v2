@@ -11,16 +11,6 @@ public class Predators extends Mammals {
     }
 
     @Override
-    public void move() {
-        super.move();
-    }
-
-    @Override
-    public void eat() {
-        super.eat();
-    }
-
-    @Override
     public String toString() {
         return getName() + " " + getAge() + " " + getHabitat() + " " + getSpeedMove() + " " + getFoodType();
     }

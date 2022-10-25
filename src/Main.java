@@ -1,11 +1,14 @@
 import animals.Amphibians;
+import animals.Animals;
 import animals.birds.Birds;
 import animals.birds.Flightless;
 import animals.birds.Flying;
 import animals.mammals.Herbivores;
 import animals.mammals.Mammals;
 import animals.mammals.Predators;
+import transport.Bus;
 import transport.Car;
+import transport.Train;
 import transport.Transport;
 
 import java.time.LocalDate;
@@ -40,6 +43,23 @@ public class Main {
         audi.refill();
         Car.Insurance insurance = new Car.Insurance(LocalDate.of(2022, 10, 1), 10500, "928398276");
         bmw.setInsurance(insurance);
+
+        Bus[] bus = new Bus[4];
+        Bus huge = new Bus("Man", "1212", 2002, "USA", "black", "gas");
+        Bus big = new Bus("Mercedes", "5543", 2002, "Germany", "black", "gas");
+        Bus middle = new Bus("Ford", "1232", 2002, "USA", "black", "gas");
+        Bus small = new Bus("Ford", "4443", 2008, "USA", "black", "gas");
+        bus[0] = huge;
+        bus[1] = big;
+        bus[2] = middle;
+        bus[3] = small;
+
+        Train[] train = new Train[2];
+        Train sapsan = new Train("Sapsan", "2321M", 2002, "Russia", "black", "gas");
+        Train lastochka = new Train("Lastochka", "5R543", 2007, "Germany", "black", "gas");
+        train[0] = sapsan;
+        train[1] = lastochka;
+
 
         Flying[] flying = new Flying[3];
         Flying seagull = new Flying("Max", "2", "sea", "wings");
@@ -103,6 +123,7 @@ public class Main {
         }
 
         unicHerbivores(herbivores);
+
     }
 
     public static void unicHerbivores(Herbivores[] herbivores) {

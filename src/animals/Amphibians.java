@@ -12,11 +12,16 @@ public class Amphibians extends Animals{
 
     @Override
     public void eat() {
-        super.eat();
+        System.out.println("Земноводное ест");
     }
 
     @Override
     public void move() {
-        super.move();
+        System.out.println("Земноводное идет");
+    }
+
+    @Override
+    public String toString() {
+        return getName() + " " + getAge() + " " + getHabitat() + " ";
     }
 }
