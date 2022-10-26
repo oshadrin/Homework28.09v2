@@ -6,13 +6,13 @@ public class Animals {
     private String habitat;
 
     public void eat() {
-
+        System.out.println("Ест");
     }
     public void sleep() {
-
+        System.out.println("Спит");
     }
     public void move() {
-
+        System.out.println("Идет");
     }
 
     public Animals(String name, String age, String habitat) {
