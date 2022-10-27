@@ -5,7 +5,7 @@ import animals.Animals;
 public class Herbivores extends Mammals {
 
     public void graze() {
-
+        System.out.println("Травоядное охотится");
     }
 
     public Herbivores(String name, String age, String habitat, String speedMove, String foodType) {

@@ -8,7 +8,7 @@ public class Mammals extends Animals {
     private String foodType;
 
     public void walk() {
-
+        System.out.println("Млекопитающее гуляет");
     }
 
     public Mammals(String name, String age, String habitat, String speedMove, String foodType) {

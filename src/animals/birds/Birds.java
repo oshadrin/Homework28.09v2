@@ -7,7 +7,7 @@ public class Birds extends Animals {
     private final String moveType;
 
     public void hunt() {
-
+        System.out.println("Птица охотится");
     }
 
     public Birds(String name, String age, String habitat, String moveType) {

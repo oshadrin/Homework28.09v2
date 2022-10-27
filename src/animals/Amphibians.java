@@ -3,7 +3,7 @@ package animals;
 public class Amphibians extends Animals{
 
     public void hunt() {
-
+        System.out.println("Земноводное охотится");
     }
 
     public Amphibians(String name, String age, String habitat) {
